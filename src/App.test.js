@@ -1,8 +1,9 @@
 import { render, screen } from '@testing-library/react';
 import App from './App';
 
-test('renders learn react link', () => {
+test('Title is Photo search by default', () => {
   render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+  const titleElement = screen.getByTestId("app-header-title");
+  expect(titleElement).toBeInTheDocument();
+  expect(titleElement).toHaveTextContent('Photo Search');
 });
