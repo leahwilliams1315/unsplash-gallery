@@ -1,35 +1,3 @@
-# Getting Started with Fullscript Unsplash
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-It has been slightly edited for our Fullscript recruitment process, to include the hookup for Unsplash API.
-
-### Step 1
-
-Clone this repo to your local machine, and use it to set up your own repo on GitHub/Bitbucket/Gitlab!
-
-### Step 2
-
-Run `yarn install` to install the dependencies
-
-### Step 3
-
-In order to communicate with the Unsplash API, you must create a developer account [here](https://unsplash.com/developers).
-
-### Step 4
-
-Once you have made an Unsplash Developer account, create a new application. Then, find your keys, and copy the **Access Key**
-
-### Step 5
-
-Within `src/App.js` find the TODO to replace the access key. You should be able to access the API now!
-
-### Step 6
-
-Run `yarn start`, and a browser window should open to `localhost:3000`
-
-For full functionality specifications for the API, the documentation can be found here: https://github.com/unsplash/unsplash-js
-
 
 ## Available Scripts
 
